@@ -1,0 +1,23 @@
+<web-app>
+
+  <servlet>
+   <servlet-name>DropDown</servlet-name>
+   <servlet-class>dropdown</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+   <servlet-name>DropDown</servlet-name>
+   <url-pattern>/DropDown</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+   <servlet-name>student</servlet-name>
+   <servlet-class>Student</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+   <servlet-name>student</servlet-name>
+   <url-pattern>/Student</url-pattern>
+  </servlet-mapping>
+
+</web-app>
